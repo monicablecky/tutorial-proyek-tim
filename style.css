@@ -1,0 +1,49 @@
+*{
+	box-sizing: border-box;
+	outline: none;
+	list-style: none;
+	text-decoration: none;
+	font-family: 'Helvetica', sans-serif;
+	padding: 0;
+	margin: 0
+}
+
+body {
+	background-color: orange;
+}
+
+p {
+	margin-bottom: 100px;
+	font-size: 14px
+	line-height: 20px;
+	font-family: Century Gothic; 
+	text-align: center;
+}
+
+h1.title {
+	font-family: Century Gothic;
+	margin-bottom: 20px;
+	color: #44444;
+	text-align: center;
+}
+
+h2 {
+	font-family: Century Gothic;
+	text-align: center;
+	margin: 10px auto;
+}
+
+img {
+	width: 50%;
+	height: 20%;
+	margin-left: 25%;
+}
+
+.utama {
+	position: relative;
+}
+
+.tambah1 {
+	padding: 5% 10%;
+	text-align: justify;
+}
