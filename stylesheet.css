@@ -24,13 +24,14 @@ header {
 }
 
 .utama {
-	float:left;
+	
 }
 
 .utama1 {
 	width:50%;
 	height:30%;
 	background-color:#ff9900;
+	float:left;
 }
 
 .utama2 {
