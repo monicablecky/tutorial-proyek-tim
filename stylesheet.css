@@ -26,13 +26,13 @@ header {
 .utama1 {
 	width:50%;
 	height:30%;
-	background-color:rgba(226, 107, 10, 1);
+	background-color:green;
 }
 
 .utama2 {
 	width:50%;
 	height:30%;
-	background-color:rgba(226, 107, 10, 0.5);
+	background-color:yelow;
 }
 
 .tambah1 {
