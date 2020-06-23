@@ -15,9 +15,66 @@
 } /* akhir tambah1 */
 
 /* tambah2 dibuat oleh Pak Hanifandrugs tanggal 22 Juni 2020 */
-.tambah2 {
+h2 {
+	font-family: 'Raleway';
+	font-weight: 400;
+	font-size: 30px;
+	color: #333;
+	text-transform: uppercase;
+	position: relative;
+	margin-top: 10px;
+	margin-bottom: 30px;
+	padding-bottom: 20px;
+}
+h2::after {
+	position: absolute;
+	content: "";
+	background: #cc0000;
+	height: 2px;
+	width: 90px;
+	bottom: 0;
+	margin-left: -35px;
+	left: 50%;
+}
 
-} /* akhir tambah2 */
+}
+.section-title {
+	margin-bottom: 10px;
+}
+.section-title .overlay {
+	padding: 20px 0;
+	background: rgba(0, 0, 0, 0.7);
+}
+.section-title p {
+	font-size: 22px;
+}
+.section-title hr {
+	margin: 0 auto;
+	margin-bottom: 40px;
+}
+
+.image-resize{
+	height: 210px;
+	width: 350px;
+}
+/* Features Section */
+#tambah2 {
+	padding: 20px 0;
+	text-align: center;
+	color: #404040;
+}
+#tambah2 .features-item {
+	margin: 0 px;
+}
+#tambah2 img {
+	margin: 15px auto 20px;
+}
+#tambah2 p {
+	line-height: 24px;
+	margin: 15px 0 30px;
+}
+
+/* akhir tambah2 */
 
 /* footerD57 dibuat oleh Bu Hairunnisa tanggal 22 Juni 2020 */
 .footerD57 { 
