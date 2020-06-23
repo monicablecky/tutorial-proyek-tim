@@ -2,6 +2,27 @@
 .headerD57 {
 
 } /* akhir headerD57 */
+header {
+  height: 10%;
+  width: 100%;
+  background-color: rgba(34, 49, 52, 0.9);
+} 
+.logo {
+  width: 124px;
+  margin-top: 20px;
+}  
+.header-left {
+  float: left;
+}
+.header-right {
+  float: right;
+  background-color: rgba(255, 255, 255, 0.3);
+  transition: all 0.5s;
+}
+.header-right:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+/* akhir headerD57 */ 
 
 /* utama dibuat oleh Pak Fakhrul Alam tanggal 22 Juni 2020 */
 .utama {
