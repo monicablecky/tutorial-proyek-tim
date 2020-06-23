@@ -19,7 +19,26 @@
 
 } /* akhir tambah2 */
 
-/* footerD57 dibuat oleh Bu Hairunnisa tanggal 22 Juni 2020 */
+/* CSS footerD57, dibuat oleh Hairunnisa tanggal 23 Juni 2020 */
 .footerD57 { 
+ background-color: #19e619;
+  height: 15%;
+  width:100%;
+  text-align: center;
+  line-height: 15%;
+}
 
-} /* akhir footerD57 */
+/* CSS image logo di footerD57 */
+img {
+  width: 50px;
+}
+
+/* CSS untuk tag <p> yang berada didalam <footer57> */
+p {
+  color: white;
+  font-size: 12px;
+  display: block;
+  padding-top: 15px;
+}
+
+
