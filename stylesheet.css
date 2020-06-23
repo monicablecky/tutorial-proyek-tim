@@ -24,15 +24,17 @@ header {
 }
 
 .utama1 {
-	width:48%;
+	width:50%;
 	height:30%;
 	background-color:green;
+	float:left;
 }
 
 .utama2 {
-	width:48%;
+	width:50%;
 	height:30%;
 	background-color:#19e619;
+	float:left;
 }
 
 .tambah1 {
