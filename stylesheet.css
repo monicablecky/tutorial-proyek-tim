@@ -1,7 +1,7 @@
-/* headerD57 dibuat oleh Pak Fauzii tanggal 22 Juni 2020 */
 .headerD57 {
 
-} /* akhir headerD57 */
+}
+
 header {
   height: 10%;
   width: 100%;
@@ -22,20 +22,21 @@ header {
 .header-right:hover {
   background-color: rgba(255, 255, 255, 0.5);
 }
-/* akhir headerD57 */ 
 
-/* utama dibuat oleh Pak Fakhrul Alam tanggal 22 Juni 2020 */
-.utama {
+.utama1 {
+	width:50%;
+	height:30%;
+}
 
-} /* akhir utama */
+.utama2 {
+	width:50%;
+	height:30%;
+}
 
-
-/* tambah1 dibuat oleh Pak Hendrawijaya tanggal 22 Juni 2020 */
 .tambah1 {
 
-} /* akhir tambah1 */
+}
 
-/* tambah2 dibuat oleh Pak Hanifandrugs tanggal 22 Juni 2020 */
 h2 {
 	font-family: 'Raleway';
 	font-weight: 400;
@@ -78,7 +79,7 @@ h2::after {
 	height: 210px;
 	width: 350px;
 }
-/* Features Section */
+
 #tambah2 {
 	padding: 20px 0;
 	text-align: center;
@@ -95,9 +96,6 @@ h2::after {
 	margin: 15px 0 30px;
 }
 
-/* akhir tambah2 */
-
-/* CSS footerD57, dibuat oleh Hairunnisa tanggal 23 Juni 2020 */
 .footerD57 { 
  background-color: #19e619;
   height: 15%;
@@ -106,13 +104,11 @@ h2::after {
   line-height: 15%;
 }
 
-/* CSS image logo di footerD57 */
 img {
   width: 50px;
   padding-bottom: 5px;
 }
 
-/* CSS untuk tag <p> yang berada didalam <footer57> */
 p {
   color: white;
   font-size: 12px;
@@ -120,5 +116,3 @@ p {
   padding-top: 5px;
   padding-bottom: 5px;
 }
-
-
