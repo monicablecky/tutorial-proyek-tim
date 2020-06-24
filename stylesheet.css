@@ -44,9 +44,11 @@ header {
 	border-color:#333300;
 	font-height: 10px;
 	z-index=1;
+	opacity:1;
 }
 
 .linkutama:hover {
+	border-color:#1a0033;
 	opacity:0.5;
 }
 
