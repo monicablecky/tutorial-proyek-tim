@@ -142,3 +142,104 @@ p {
   padding-top: 5px;
   padding-bottom: 5px;
 }
+
+
+/*<!-- tambah1 dibuat oleh Pak Hendrawijaya tanggal 24 Juni 2020 -->*/
+.aboutus {
+	background: #e74c3c;
+	width: 100%;
+	height: auto;
+}
+
+.aboutus h1 {
+	font-family: Century Gothic;
+	font-size: 20px;
+	text-align: center;
+	color: #efefef;
+}
+
+.services h1 {
+	font-family: Century Gothic;
+	font-size: 20px;
+	text-align: center;
+	color: #efefef;
+}
+
+.services h3 {
+	font-family: Century Gothic;
+	text-decoration: none;
+	font-color: #ccc;
+	text-align: center;
+}
+
+.aboutus p {
+	font-family: Century Gothic;
+	text-align: center;
+}
+
+.services p {
+	font-family: Century Gothic;
+	text-align: center;
+}
+
+.services a {
+	text-decoration: none;
+}
+
+.aboutus .btn a {
+	display: block;
+	width: 120px;
+	height: auto;
+	border: 2px solid #ecf0f1;
+	line-height: 35px;
+	margin: 25px auto;
+	color: #ecf0f1;
+	text-align: center;
+	text-decoration: none;
+}
+
+.aboutus .btn a:hover {
+	background: #fff;
+	cursor: pointer;
+	color: #2c3e50;
+}
+
+.services {
+	background: #2c3e50;
+	width: 100%;
+}
+
+.diff_services {
+	display: flex;
+	margin-top: 35px;
+	justify-content: space-between;
+}
+
+.diff_services_item {
+	width: 30%;
+}
+
+.diff_services_item img {
+	width: 100%;
+	height: auto;
+	margin-bottom: 25px;
+	cursor: pointer;
+	transition: all 0.5s ease;
+}
+
+.diff_services_item img:hover {
+	transform: scale(1.1);
+}
+
+.diff_services_item h3 {
+	color: #fb2274;
+	margin-bottom: 15px;
+}
+
+@media (max-width: 720px) {
+	.aboutus,
+	.services {
+		height: auto;
+		text-align: center;
+	}
+}
