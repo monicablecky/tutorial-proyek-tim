@@ -1,25 +1,244 @@
-/* headerD57 dibuat oleh Pak Fauzii tanggal 22 Juni 2020 */
 .headerD57 {
 
-} /* akhir headerD57 */
+}
 
-/* utama dibuat oleh Pak Fakhrul Alam tanggal 22 Juni 2020 */
+header {
+  height: 10%;
+  width: 100%;
+  background-color: rgba(34, 49, 52, 0.9);
+} 
+.logo {
+  width: 124px;
+  margin-top: 20px;
+}  
+.header-left {
+  float: left;
+}
+.header-right {
+  float: right;
+  background-color: rgba(255, 255, 255, 0.3);
+  transition: all 0.5s;
+}
+.header-right:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
 .utama {
+	
+}
 
-} /* akhir utama */
+.utama1 {
+	width:50%;
+	height:30%;
+	background-color:#ff9900;
+	float:left;
+}
 
+.linkutama {
+	color:black;
+	margin-left:5%;
+	margin-top:2%;
+	margin-bottom:2%;
+	background-color:#333300;
+	color:white;
+	border-color:#333300;
+	font-height: 10px;
+	z-index=1;
+	opacity:1;
+}
 
-/* tambah1 dibuat oleh Pak Hendrawijaya tanggal 22 Juni 2020 */
+.linkutama:hover {
+	border-color:#1a0033;
+	opacity:0.5;
+}
+
+.utama2 {
+	width:50%;
+	height:30%;
+	background-color:#ffff66;
+	float:left;
+}
+
 .tambah1 {
 
-} /* akhir tambah1 */
+}
 
-/* tambah2 dibuat oleh Pak Hanifandrugs tanggal 22 Juni 2020 */
-.tambah2 {
+h2 {
+	font-family: 'Raleway';
+	font-weight: 400;
+	font-size: 30px;
+	color: #333;
+	text-transform: uppercase;
+	position: relative;
+	margin-top: 10px;
+	margin-bottom: 30px;
+	padding-bottom: 20px;
+}
+h2::after {
+	position: absolute;
+	content: "";
+	background: #cc0000;
+	height: 2px;
+	width: 90px;
+	bottom: 0;
+	margin-left: -35px;
+	left: 50%;
+}
 
-} /* akhir tambah2 */
+}
+.section-title {
+	margin-bottom: 10px;
+}
+.section-title .overlay {
+	padding: 20px 0;
+	background: rgba(0, 0, 0, 0.7);
+}
+.section-title p {
+	font-size: 22px;
+}
+.section-title hr {
+	margin: 0 auto;
+	margin-bottom: 40px;
+}
 
-/* footerD57 dibuat oleh Bu Hairunnisa tanggal 22 Juni 2020 */
+.image-resize{
+	height: 210px;
+	width: 350px;
+}
+
+#tambah2 {
+	padding: 20px 0;
+	text-align: center;
+	color: #404040;
+}
+#tambah2 .features-item {
+	margin: 0 px;
+}
+#tambah2 img {
+	margin: 15px auto 20px;
+}
+#tambah2 p {
+	line-height: 24px;
+	margin: 15px 0 30px;
+}
+
 .footerD57 { 
+ background-color: #19e619;
+  height: 15%;
+  width:100%;
+  text-align: center;
+  line-height: 15%;
+}
 
-} /* akhir footerD57 */
+img {
+  width: 50px;
+  padding-bottom: 5px;
+}
+
+p {
+  color: white;
+  font-size: 12px;
+  display: block;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+/*<!-- tambah1 dibuat oleh Pak Hendrawijaya tanggal 24 Juni 2020 -->*/
+.aboutus {
+	background: #e74c3c;
+	width: 100%;
+	height: auto;
+}
+
+.aboutus h1 {
+	font-family: Century Gothic;
+	font-size: 20px;
+	text-align: center;
+	color: #efefef;
+}
+
+.services h1 {
+	font-family: Century Gothic;
+	font-size: 20px;
+	text-align: center;
+	color: #efefef;
+}
+
+.services h3 {
+	font-family: Century Gothic;
+	text-decoration: none;
+	font-color: #ccc;
+	text-align: center;
+}
+
+.aboutus p {
+	font-family: Century Gothic;
+	text-align: center;
+}
+
+.services p {
+	font-family: Century Gothic;
+	text-align: center;
+}
+
+.services a {
+	text-decoration: none;
+}
+
+.aboutus .btn a {
+	display: block;
+	width: 120px;
+	height: auto;
+	border: 2px solid #ecf0f1;
+	line-height: 35px;
+	margin: 25px auto;
+	color: #ecf0f1;
+	text-align: center;
+	text-decoration: none;
+}
+
+.aboutus .btn a:hover {
+	background: #fff;
+	cursor: pointer;
+	color: #2c3e50;
+}
+
+.services {
+	background: #2c3e50;
+	width: 100%;
+}
+
+.diff_services {
+	display: flex;
+	margin-top: 35px;
+	justify-content: space-between;
+}
+
+.diff_services_item {
+	width: 30%;
+}
+
+.diff_services_item img {
+	width: 100%;
+	height: auto;
+	margin-bottom: 25px;
+	cursor: pointer;
+	transition: all 0.5s ease;
+}
+
+.diff_services_item img:hover {
+	transform: scale(1.1);
+}
+
+.diff_services_item h3 {
+	color: #fb2274;
+	margin-bottom: 15px;
+}
+
+@media (max-width: 720px) {
+	.aboutus,
+	.services {
+		height: auto;
+		text-align: center;
+	}
+}
