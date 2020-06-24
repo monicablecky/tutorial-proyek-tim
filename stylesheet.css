@@ -36,10 +36,14 @@ header {
 
 .linkutama {
 	color:black;
-	margin-left:20%;
+	margin-left:5%;
 	background-color:#333300;
 	color:white;
 	border-color:#333300;
+}
+
+.linkutama:hover {
+	opacity:0.5;
 }
 
 .utama2 {
